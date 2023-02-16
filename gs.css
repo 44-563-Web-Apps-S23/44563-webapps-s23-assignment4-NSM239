@@ -1,0 +1,47 @@
+speech {
+    color: black;
+     font-size: small;
+     font-family: 'Courier New', Courier, monospace;
+   }
+
+.direction {
+    color: black;
+    font-size: medium;
+    background-color: aquamarine;
+    
+     font-family: 'Courier New', Courier, monospace;
+   }
+   .direction:hover {
+     color: red;
+     background-color: antiquewhite;
+   }
+
+.name {
+    color: black;
+     font-size: medium;
+     font-family: 'Courier New', Courier, monospace;
+   }
+.IMP {
+color: red;
+font-size: medium;
+font-family: 'Courier New', Courier, monospace;
+}
+.JUDGE {
+    color: yellow;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    }
+
+    .TABLE{
+        border: 1px solid;
+        text-align: center;
+    }
+    .TABLE th:hover{
+        background-color: aquamarine;
+    }
+    .TABLE th, td{
+        text-align: left;
+        padding: 8px;
+    }
+
+    .TABLE tr:nth-child(even){background-color: #f2f2f2;}
